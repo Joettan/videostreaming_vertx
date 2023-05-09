@@ -29,8 +29,8 @@ jobs:
       - name: Build with Maven
         run: mvn -B package --file pom.xml
 
-      - name: Run Vertx with Maven
-        run: mvn exec:java
+#      - name: Run Vertx with Maven
+#        run: mvn exec:java
 
       - name: Deploy to Heroku
         uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
