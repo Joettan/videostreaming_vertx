@@ -36,5 +36,5 @@ jobs:
         uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
           heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
-          heroku_app_name: "your-app-name" # Replace this with your Heroku app's name
-          heroku_email: "your-email@example.com" # Replace this with your Heroku email
+          heroku_app_name: jinyutancode
+          heroku_email: siwang135@outlook.com
