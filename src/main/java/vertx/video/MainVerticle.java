@@ -11,6 +11,7 @@ public class MainVerticle extends AbstractVerticle {
       req.response()
         .putHeader("content-type", "text/plain")
         .end("Hello from Vert.x! in Docker");
+
     }).listen(8888, http -> {
       if (http.succeeded()) {
         startPromise.complete();
